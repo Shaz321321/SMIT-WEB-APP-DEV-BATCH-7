@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    text-align:center;
+}
+body{
+      background-color: brown;
+      text-align: center;
+}
+table, th, td {
+    border:1px solid black;
+    margin: 0 auto;
+  }
+h1{
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 5px 5px;
+    text-decoration: none;
+    color:white;
+  }
+  
+  nav a:hover {
+    color:green;
+  }
+
+h2{
+    background-color:black ;
+    color: white;
+ }
+ h3{
+    color: white;
+ }
+footer{
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+button{
+    background-color: green;
+    color: white;
+}
+
