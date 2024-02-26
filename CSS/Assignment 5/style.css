@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #0a192f;
+}
+
+.navclass {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.navclass1 {
+    border-radius: 10px;
+}
+
+.navclass2 {
+    display: flex;
+    gap: 50px;
+    list-style: decimal;
+    margin-right: 50px;
+    align-items: center;
+
+}
+
+.navclass2 button {
+    border: 2px solid lightgreen;
+    background-color: #0a192f;
+    color: lightgreen;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.homeclass {
+    margin-top: 10%;
+    margin-left: 100px;
+    color: white;
+    width: 60%;
+    font-size: 24px;
+}
+
+.homeclass button {
+    margin-top: 20px;
+    border: 2px solid lightgreen;
+    background-color: #0a192f;
+    color: lightgreen;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.homeclass p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.homeclass h1 {
+    margin-bottom: 20px;
+}
+
+.homeclass h2 {
+    margin-bottom: 20px;
+}
+
+#aboutsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 40px;
+    color: white;
+    align-items: center;
+
+}
+
+.textclass {
+    font-size: 17px;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.textclass h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.borderclass {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.borderclass2 {
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin-right: 20%;
+}
+
+.techlist {
+    display: flex;
+    gap: 90px;
+    margin-left: 160px;
+}
+
+.techlist1 {
+    margin-top: 15px;
+    color: white;
+}
+
+.techlist2 {
+    margin-top: 15px;
+    color: white;
+}
+
+.borderclass1 h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 160px;
+}
+
+#experiencesection {
+    display: flex;
+    margin-left: 13%;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.sectionclass1 {
+    width: 20%;
+}
+
+.sectionclass2 {
+    width: 60%;
+}
+
+.sectionclass2 div {
+    margin-bottom: 10px;
+}
+
+.worksection {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    color: white;
+}
+
+.textclass1 {
+    margin-left: 13%;
+}
+
+.textclass2 {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(23, 42, 69);
+    z-index: 1;
+}
+
+.imgclass1 img {
+    max-width: 80%;
+    height: auto;
+}
+
+.imgclass1 {
+    position: relative;
+    right: 5%;
+}
+
+.textclass1 div {
+    margin-top: 20px;
+}
+
+.worksection1 {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    color: white;
+}
+
+.textclass4 {
+    position: relative;
+    right: 50%;
+    padding: 20px;
+    background-color: rgb(23, 42, 69);
+    z-index: 1;
+}
+
+.textclass3 div {
+    margin-top: 10px;
+}
+
+.imgclass2 img {
+    width: 100%;
+    height: auto;
+}
+
+.imgclass2 {
+    margin-left: 13%;
+}
+
+.textclass5 {
+    position: relative;
+    right: 18%;
+    padding: 20px;
+    background-color: rgb(23, 42, 69);
+    z-index: 1;
+    width: 65%;
+}
+
+.h3class h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contentclass {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.contentclass1 {
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(23, 42, 69);
+    margin: 10px;
+}
+
+.contentclass1 div {
+    margin-bottom: 15px;
+    background-color: rgb(23, 42, 69);
+}
+
+.contentclass1 P {
+    font-size: 10px;
+    margin-top: 40px;
+    background-color: rgb(23, 42, 69);
+}
+
+.contentclass1 h3 {
+    background-color: rgb(23, 42, 69);
+}
+
+.btnclass button {
+    margin-top: 20px;
+    border: 2px solid lightgreen;
+    background-color: #0a192f;
+    color: lightgreen;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btnclass {
+    text-align: center;
+}
+
+.divclass {
+    margin-top: 40px;
+    text-align: center;
+    color: lightgreen;
+}
+
+.divclass1 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.divclass2 {
+    margin: 30px;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+.emailclass {
+    position: fixed;
+    bottom: 23%;
+    right: 50px;
+    writing-mode: vertical-lr;
+
+}
+
+.emailclass a {
+    color: white;
+    text-decoration: none;
+}
+
+.lineclass {
+    border-left: 1px solid white;
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+}
