@@ -311,29 +311,34 @@
 
 // Second Method
 
-// function countNotes(amount) {
-//     // Array of available currency denominations
-//     let denominations = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1];
-//     let noteCount = 0;
 
-//     // Iterate through each denomination
-//     for (let denomination of denominations) {
-//         // Count how many times the current denomination can be subtracted from the amount
-//         let count = Math.floor(amount / denomination);
-//         // Update the amount by subtracting the total value of the counted notes
-//         amount -= count * denomination;
-//         // Add the count to the total note count
-//         noteCount += count;
+// // Finding minimum notes in a given amount
+
+// let availableNotesAndCoins = [5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1]
+// let possibleNotesAndCoins = []
+// let amount = 1033
+// let noOfNotes = 0
+
+// for (let index = 0; index < availableNotesAndCoins.length; index++) {
+//     let notes = Math.floor(amount / availableNotesAndCoins[index])
+//     if (notes > 0) {
+//         possibleNotesAndCoins.push(availableNotesAndCoins[index])
+//         noOfNotes = noOfNotes + notes
+//         amount = amount - (availableNotesAndCoins[index] * notes)
 //     }
-
-//     return noteCount;
 // }
 
-// // Example usage:
-// let amount = parseInt(prompt("Enter the amount in rupees:"));
-// let result = countNotes(amount);
-// console.log("Minimum number of notes:", result);
+// console.log("no of possible minimum notes & coins: ", noOfNotes);
+// console.log("possible minimum notes & coins: ", possibleNotesAndCoins);
 
+
+// console.log("before loop");
+
+// for (let index = 0; index < 10000000000; index++) {
+    
+// }
+
+// console.log("before loop");
 
 
 // Q.12. Write a js program to input marks of five subjects Physics, Chemistry,
